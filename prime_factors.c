@@ -22,6 +22,7 @@ int prime_factor(int num){
 
     while(num > 1){
         if(prime(i))
+        //this means if prime function returns 1 ,i.e., prime(1)="true" execute block else prime returns ,i.e., prime(0)="false" 
             while((num%i) == 0){
                 num /= i;
                 printf("%d\t" , i);
