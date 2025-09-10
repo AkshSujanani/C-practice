@@ -6,7 +6,7 @@ int main(){
     char word[50] , rev_word[50];
 
     printf("Enter the word to be checked: ");
-    scanf("%s",&word);
+    scanf("%s",word);
     length = strlen(word);
 
     j = length-1;
