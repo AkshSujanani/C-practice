@@ -18,3 +18,14 @@ int fibonacci(int n, int t1, int t2){
 
     return 0;
 }
+/*
+fun(){
+    int i=10;
+    printf("%d",i);
+    i++;
+}
+
+fun();
+fun();
+fun();
+*/

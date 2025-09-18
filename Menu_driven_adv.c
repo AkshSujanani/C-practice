@@ -9,7 +9,9 @@ int odd_even(int num){
     return 0;
 }
 
-//int 
+/*int prime(){
+}*/
+
 int main(){
     int choice , n;
     printf("1.Odd or even? \n2.Prime or not? \n3.Calculate Factorial? \n4.Fibonacci to n elements? \n5.Exit");
@@ -28,8 +30,8 @@ int main(){
                     odd_even(n);
                     break;
                 case 2:
-                int *x = n;
-                    //prime();
+                    /*prime();
+                    break;*/
                 case 3:
                     //factorial();
                 case 4:
